@@ -1,0 +1,41 @@
+name: weather_app
+description: Weather App by @Yavnik
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dartz: ^0.10.1
+  freezed_annotation: ^2.2.0
+  http:
+  flutter_bloc: ^8.1.3
+  location:
+  google_maps_flutter:
+  intl:
+  flutter_config: ^2.0.0
+  cached_network_image: ^3.2.3
+  permission_handler: ^10.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  freezed: ^2.3.5
+  mocktail: ^0.3.0
+  dartz_test: ^0.1.1
+  bloc_test: ^9.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/map_style.txt
+    - assets/images/background_image.jpg
+    - .env
